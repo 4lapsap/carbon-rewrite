@@ -137,6 +137,7 @@ const DismissibleTag = forwardRef(
     const tagClasses = classNames(`${prefix}--tag--filter`, className);
     const [isEllipsisApplied, setIsEllipsisApplied] = useState(false);
 
+    // adding a dummy comment over here
     useIsomorphicEffect(() => {
       const newElement = tagLabelRef.current?.getElementsByClassName(
         `${prefix}--tag__label`
