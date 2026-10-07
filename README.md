@@ -7,7 +7,7 @@
     />
   </a>
 
-  <h1>Carbon Design System</h1>
+  <h1>Carbon Design System rewrite test</h1>
 
   <p>
     <a href="https://www.carbondesignsystem.com">Website</a> ·
