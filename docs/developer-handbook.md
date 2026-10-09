@@ -109,7 +109,8 @@ want to run:
 | `yarn clean`                      | Resets the state of the project by removing all `node_modules` and running the `clean` script in each package |
 | `yarn doctoc`                     | Runs `doctoc` on all files in the `doctoc` directory                                                          |
 | `yarn format`, `yarn format:diff` | Format files using Prettier, check if files have been formatted                                               |
-| `yarn lint`                       | Finds and fixes problems in code                                                                              |
+| `yarn lint`                       | Finds problems in code without modifying files                                                                |
+| `yarn lint:fix`                   | Finds problems in code and applies automatic fixes                                                            |
 
 In addition, you can use `yarn` to run `bin` files using the `yarn <bin>`
 syntax. For example, if you wanted to use `lerna` to run a script in every
